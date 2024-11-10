@@ -201,7 +201,7 @@ private void updateCalendar() {
 
     // Mengecek apakah tahun kabisat
     boolean isLeapYear = yearMonth.isLeapYear();
-    String kabisatInfo = isLeapYear ? "adalah tahun kabisat" : "bukan tahun kabisat";
+    String kabisatInfo = isLeapYear ? "merupakan tahun kabisat" : "bukan tahun kabisat";
 
     // Menghitung selisih hari antara dua tanggal dari jCalendar1 dan jCalendar2
     LocalDate date1 = LocalDate.of(jCalendar1.getCalendar().get(Calendar.YEAR),
@@ -214,7 +214,7 @@ private void updateCalendar() {
     String selisihHari = "Selisih hari antara kedua tanggal yang dipilih: " + Math.abs(daysBetween) + " hari";
 
     // Menggabungkan semua informasi menjadi satu pesan
-    String infoPesan = "Jumlah hari pada bulan yang anda pilih : "  + jumlahHari + " hari" +
+    String infoPesan = "Jumlah hari pada bulan yang dipilih : "  + jumlahHari + " hari" +
                        "\nHari pertama dibulan ini: " + namaHariPertama +
                        "\nHari terakhir dibulan ini: " + namaHariTerakhir +
                        "\nTahun " + tahun + " " + kabisatInfo +
