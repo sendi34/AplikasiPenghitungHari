@@ -31,6 +31,13 @@
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="66" green="66" red="ff" type="rgb"/>
         </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="APLIKASI PENGHITUNG HARI">
+              <Font PropertyName="font" name="Segoe UI" size="14" style="1"/>
+            </TitledBorder>
+          </Border>
+        </Property>
       </Properties>
 
       <Layout>
@@ -53,7 +60,7 @@
                       <Component id="jCalendar1" min="-2" pref="483" max="-2" attributes="0"/>
                       <Component id="jCalendar2" alignment="0" min="-2" pref="435" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="300" pref="311" max="32767" attributes="0"/>
+                  <EmptySpace min="300" pref="301" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -76,7 +83,7 @@
                   <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                   <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jCalendar2" pref="208" max="32767" attributes="0"/>
+                  <Component id="jCalendar2" pref="181" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
           </Group>
